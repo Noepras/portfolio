@@ -1,6 +1,6 @@
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+// AOS.init();
 
 
 // navbar
@@ -19,6 +19,7 @@ window.onscroll = function(){
 const hamburger = document.querySelector('#hamburger');
 const navMenu = document.querySelector('#nav-menu');
 hamburger.addEventListener('click', function(){
+    
     hamburger.classList.toggle('hamburger-active');
     navMenu.classList.toggle('hidden');
 })
